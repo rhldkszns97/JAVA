@@ -7,7 +7,7 @@ public class ElectricChargesCalculator {
         System.out.println("======================");
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Kwh를 입력하세요 : ");
+        System.out.print("Kwh를 입력하세요 :      ");
         int kwh = input.nextInt();
         double charges = 0;
         while (kwh != 0) {
